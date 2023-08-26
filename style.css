@@ -1,0 +1,140 @@
+*{
+    margin:0px;
+    padding: 0px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.body{
+    display: flex;
+    background-color: #0C0E10;
+
+    flex:1;
+}
+.left{
+    background-color: #0C0E10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex:1;
+    position: sticky;
+    /* left:0px; */
+    top:0px;
+    height: 80vh;;
+}
+.left1{
+    margin-inline:50px;
+}
+.left1>p{
+    color: #FF2424;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.left2{
+    /* margin-inline:50/px; */
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    padding:50px
+}
+.left2 h3,.left3 h3{
+    margin:20px;
+    margin-top:0px;
+}
+.left3{
+    margin-inline:50px;
+}
+.left1>img{
+    background-color: #0C0E10;
+    color:#0C0E10;
+    width: 298px;
+    height: 298px;
+    flex-shrink: 0;
+}
+.right{
+    display: flex;
+    flex-direction : column;
+    flex:3;
+    background-color: #111315;
+}
+.topnav{
+    display: flex;
+    position: sticky;
+    top:0px;
+    background: #191D20;
+    /* padding:5px; */
+    align-items: center;
+height: 83px;
+flex-shrink: 0;
+}
+.search>input{
+    width: 812px;
+height: 46px;
+flex-shrink: 0;
+/* margin:5px; */
+border:1px solid grey;
+background-color: #191D20;
+}
+.topnav>button{
+    width: 176px;
+    height: 46px;
+    flex-shrink: 0;
+    background-color: #FF2424;
+    margin-inline:10px;
+}
+.hero{
+    width: 1284px;
+height: 463px;
+flex-shrink: 0;
+    margin-top:50px;
+    margin-inline:30px;
+}
+.right>h4{
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin:40px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.card{
+    margin:20px;
+    /* width: 428px;
+    height: 385px;
+    flex-shrink: 0; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border-radius: 10px;
+background: #191D20;
+transition: all 0.5s;
+
+padding:10px;
+}
+.card>img{
+    width: 410px;
+height: 273px;
+flex-shrink: 0;
+margin-bottom: 10px;
+}
+.card>div{
+    display: flex;
+    justify-content: space-between;
+}
+.plus:hover{
+    
+    background-color: black;
+}
+.card:hover{
+    
+    scale:1.1;
+}
